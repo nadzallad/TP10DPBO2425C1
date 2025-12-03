@@ -1,4 +1,5 @@
 // Janji
+
 Saya Nadzalla Diva Asmara Sutedja dengan Nim 2408095 mengerjakan Tugas Praktikum  10 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahan-Nya maka saya tidak akan melakukan kecurangan seperti yang telah di spesifikasikan
 
 // Desain Program 
@@ -32,3 +33,27 @@ File index.php berfungsi sebagai router utama yang menerima semua permintaan HTT
 7. View hanya bertugas menampilkan data dalam format HTML, tidak melakukan logika bisnis atau akses database. ViewModel menangani semua logika dan aturan bisnis. Model khusus berinteraksi dengan database. Index.php sebagai pengatur alur yang menghubungkan semua komponen.
 
 8. Struktur ini berlaku sama untuk semua modul. Untuk anggota, buku, dan kategori, alurnya identik: index.php terima request, panggil ViewModel sesuai entity, ViewModel proses logika, panggil Model untuk akses data, lalu View tampilkan hasilnya. File konfigurasi di folder Config menyimpan setting koneksi database yang digunakan oleh semua Model, sementara folder Database berisi script SQL untuk membuat struktur database awal.
+
+
+// Dokumentasi 
+
+1. Dokumentasi CRUD tabel Kategori
+
+https://github.com/user-attachments/assets/33536d83-9e5c-46d6-affe-a9371cc98d0e
+
+2. Dokumentasi CRUD tabel Buku
+   
+
+https://github.com/user-attachments/assets/6e29df41-02a6-417b-af1c-ade6e228b99d
+
+3. Dokumentasi CRUD tabel Anggota
+
+https://github.com/user-attachments/assets/32e977af-2608-4f71-b85d-81f9247f751e
+
+4. Dokumentasi CRUD tabel Peminjaman
+
+
+https://github.com/user-attachments/assets/3aec67f4-108e-4b03-9389-621d064887fd
+   
+
+
