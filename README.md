@@ -3,7 +3,9 @@
 Saya Nadzalla Diva Asmara Sutedja dengan Nim 2408095 mengerjakan Tugas Praktikum  10 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahan-Nya maka saya tidak akan melakukan kecurangan seperti yang telah di spesifikasikan
 
 // Desain Program 
-<img width="1113" height="714" alt="Screenshot 2025-12-04 070042" src="https://github.com/user-attachments/assets/e892244a-9cc4-4f86-bc11-cccd28c7e71a" />
+
+<img width="949" height="787" alt="image" src="https://github.com/user-attachments/assets/04d656ab-8fd3-41ff-a6b0-8bb6806cd5a2" />
+
 
 Folder Config berisi konfigurasi yang mengatur pengaturan dasar aplikasi seperti koneksi database, parameter sistem, dan variabel lingkungan yang diperlukan untuk menjalankan website dengan benar. File Database.php dalam folder ini khusus menangani pembuatan dan pengelolaan koneksi ke database MySQL.
 
