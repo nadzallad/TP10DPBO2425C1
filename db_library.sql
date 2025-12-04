@@ -34,7 +34,7 @@ CREATE TABLE peminjaman (
     buku_id INT NOT NULL,
     tanggal_pinjam DATE NOT NULL,
     tanggal_kembali DATE,
-    status ENUM('dipinjam', 'dikembalikan', 'terlambat') DEFAULT 'dipinjam',
+    status ENUM('dipinjam', 'dikembalikan') DEFAULT 'dipinjam',
     FOREIGN KEY (anggota_id) REFERENCES anggota(id_anggota),
     FOREIGN KEY (buku_id) REFERENCES buku(id_buku)
 );
@@ -59,5 +59,5 @@ INSERT INTO anggota (nama, email, no_telepon, tanggal_daftar, status) VALUES
 
 INSERT INTO peminjaman (anggota_id, buku_id, tanggal_pinjam, tanggal_kembali, status) VALUES
 (1, 1, '2024-12-01', '2024-12-15', 'dipinjam'),   
-(2, 3, '2024-12-05', '2024-12-19', 'dipinjam'),   
-(3, 5, '2024-12-10', '2024-12-24', 'dipinjam'), 
+(2, 2, '2024-12-05', '2024-12-19', 'dipinjam'),   
+(1, 1, '2024-12-10', '2024-12-24', 'dipinjam');
