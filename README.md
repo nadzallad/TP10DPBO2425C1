@@ -55,8 +55,11 @@ https://github.com/user-attachments/assets/32e977af-2608-4f71-b85d-81f9247f751e
 
 4. Dokumentasi CRUD tabel Peminjaman
 
+https://github.com/user-attachments/assets/d06945aa-6281-4427-aca5-15856c2aeba8
 
-https://github.com/user-attachments/assets/3aec67f4-108e-4b03-9389-621d064887fd
+
+
+
    
 
 
