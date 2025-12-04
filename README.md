@@ -7,9 +7,9 @@ Saya Nadzalla Diva Asmara Sutedja dengan Nim 2408095 mengerjakan Tugas Praktikum
 <img width="949" height="787" alt="image" src="https://github.com/user-attachments/assets/04d656ab-8fd3-41ff-a6b0-8bb6806cd5a2" />
 
 
-Folder Config berisi konfigurasi yang mengatur pengaturan dasar aplikasi seperti koneksi database, parameter sistem, dan variabel lingkungan yang diperlukan untuk menjalankan website dengan benar. File Database.php dalam folder ini khusus menangani pembuatan dan pengelolaan koneksi ke database MySQL.
+Folder Config berisi konfigurasi yang mengatur pengaturan dasar aplikasi seperti koneksi database diperlukan untuk menjalankan website dengan benar. File Database.php dalam folder ini khusus menangani pembuatan dan pengelolaan koneksi ke database MySQL.
 
-Folder Database menyimpan file-file SQL yang berisi skema database lengkap termasuk struktur tabel, relasi antar tabel, dan data awal yang diperlukan. File db_library.sql di sini bisa langsung diimpor ke MySQL untuk membuat database dengan semua tabel yang dibutuhkan yaitu tabel anggota, buku, kategori, dan peminjaman beserta hubungan antar tabelnya.
+Folder Database menyimpan SQL yang berisi skema database lengkap termasuk struktur tabel, relasi antar tabel, dan data awal yang diperlukan. File db_library.sql di sini bisa langsung diimpor ke MySQL untuk membuat database dengan semua tabel yang dibutuhkan yaitu tabel anggota, buku, kategori, dan peminjaman beserta hubungan antar tabelnya.
 
 Folder Model berisi kelas-kelas yang bertanggung jawab langsung berinteraksi dengan database. Setiap kelas Model seperti Anggota.php, Buku.php, Kategori.php dan Peminjaman.php menangani operasi CRUD (Create, Read, Update, Delete) untuk  masing-masing. Mereka menjalankan query SQL, menangani database, dan mengembalikan data dalam format yang siap diproses.
 
